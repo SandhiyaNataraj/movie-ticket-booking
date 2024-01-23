@@ -1,0 +1,228 @@
+.home h2{
+  font-weight: 500;
+  margin: 20px;
+  margin-top: 150PX;
+}
+.lan-btn{
+  padding:6px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-color: grey;
+  color: red;
+  background-color: white;
+  border-radius: 30px;
+}
+.explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+ }
+.explore h2, .explore p {
+  margin: 15px;
+ }
+ .explore p{
+   color: red;
+  ;
+ }
+.img_movies{
+  margin: 50px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.img-caption{
+  margin: 50px;
+  margin-top: 15px;
+}
+.img_p{
+  margin: 30px;
+}
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:  url("https://png.pngtree.com/thumb_back/fh260/background/20230705/pngtree-3d-render-of-online-ticketing-for-movies-image_3738846.jpg");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.loginForm > label {
+  margin: 10px 0;
+  color: white;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:  url("https://png.pngtree.com/thumb_back/fh260/background/20230705/pngtree-3d-render-of-online-ticketing-for-movies-image_3738846.jpg");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+  color: beige;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.loginForm > label {
+  margin: 10px 0;
+  color: white;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: 
+  url("https://png.pngtree.com/thumb_back/fh260/background/20230705/pngtree-3d-render-of-online-ticketing-for-movies-image_3738846.jpg");
+  background-size: cover;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.figure:hover,
+.figure:active {
+  animation: blink 2s infinite; 
+}
+.rating_text{
+  text-align: center;
+  padding: 50px;
+  color: red;
+}
+.star{
+  font-size: 50px;
+}
+.user{
+  text-align: center;
+  padding: 20px;
+  color: blue;
+}
+.submit-button{
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
+  background-color: palevioletred;
+  
+}
+.review{
+  color:black
+}
+.format{
+  text-align: center;
+  margin-top: 120px;
+  border: 1px solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  font-weight: 700;
+}
+.f-name{
+  border: 1px solid;
+  margin-left: 0px;
+  margin-top: 20px;
+  background-color: whitesmoke;
+  border-color: black;
+  color: red;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.f-button{
+   background-color:yellow;
+}
+
